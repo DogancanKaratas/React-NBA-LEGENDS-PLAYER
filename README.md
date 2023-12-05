@@ -19,5 +19,6 @@ Bu proje, NBA efsanelerinin istatistiklerini ve bilgilerini gösteren bir React 
 - LinkedIn: [https://www.linkedin.com/in/dogancan-karatas/]
 - E-posta: [karatasdgncn21@gmail.com]
 
-https://github.com/DogancanKaratas/React-NBA-LEGENDS-PLAYER/assets/140513435/4d3355e5-ea65-4249-9408-0277b6d7bc8e
 
+
+![Animation3](https://github.com/DogancanKaratas/React-NBA-LEGENDS-PLAYER/assets/140513435/adb8f5fc-e321-401d-b6b6-6f6e99a487f3)
