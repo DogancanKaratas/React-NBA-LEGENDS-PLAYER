@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: yellow;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  text-align: center;
+  margin: 20px 0;
+}
+.logo img {
+  width: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search {
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+}
+input {
+  width: 60%;
+  padding: 10px;
+  border: 5px solid #a5a4a4;
+  border-radius: 5px;
+  outline: none;
+}
+input:hover {
+  box-shadow: 1px 1px 5px 1px #a5a4a4;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url(./img/nbalogo.jpg);
+
+  border-radius: 10px;
+}
+
+.card {
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+}
+
+.player-card {
+  background-color: white;
+  border-radius: 5px;
+  width: 22%;
+  min-width: 300px;
+  height: 450px;
+  text-align: center;
+  position: relative;
+}
+
+.player-card img {
+  border-radius: 5px 5px 0 0;
+  transition: 0.5s;
+}
+
+.player-card img:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.stat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.stat1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
 }
